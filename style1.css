@@ -52,6 +52,7 @@ nav ul li a {
     letter-spacing: 3px;
     font-weight: bold;
     font-size: 14px;
+    transition:font-size 0.3s;
 }
 
 a.active,a:hover {
