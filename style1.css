@@ -59,3 +59,26 @@ a.active,a:hover {
     background: #252324
     
 }
+
+section
+{
+    position: relative; 
+    width: 100%;
+    height: 100vh; 
+    padding: 100px;
+
+
+}
+section img
+{
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+section img#bos
+{
+    mix-blend-mode: screen;
+}
