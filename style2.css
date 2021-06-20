@@ -57,7 +57,7 @@ nav ul li a {
 }
 
 .factions{
-    background: #131313;
+    background-image: url("images/black_water_tile.jpg");
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -94,8 +94,41 @@ nav ul li a {
 
 }
 
+#l1 {
+    margin: 10px;
+  height: 300px;
+  width: 400px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: 0.3s ease-in;
+
+}
+
+#l2 {
+    margin: 10px;
+  height: 400px;
+  width: 300px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: 0.3s ease-in;
+}
+#l3 {
+    margin: 10px;
+  height: 400px;
+  width: 300px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: 0.3s ease-in;
+
+}
 #faction1{
-    background-image: url("images/mlogo2.jpg");
+    background-image: url("images/mlogo2.png");
     background-repeat: no-repeat;
     
     background-size: 100% 100%;
@@ -103,7 +136,7 @@ nav ul li a {
 
 }
 #faction2{
-    background-image: url("images/ilogo2.jpg");
+    background-image: url("images/download\ \(1\).jpg");
     background-repeat: no-repeat;
     
     background-size: 100% 100%;
@@ -111,7 +144,7 @@ nav ul li a {
 
 }
 #faction3{
-    background-image: url("images/boslogo.png");
+    background-image: url("images/fuck.jpg");
     background-repeat: no-repeat;
     
     background-size: 100% 100%;
@@ -119,7 +152,7 @@ nav ul li a {
 
 }
 #faction4{
-    background-image: url("images/rlogo2.png");
+    background-image: url("images/fuck2.jpg");
     background-repeat: no-repeat;
     
     background-size: 100% 100%;
@@ -130,14 +163,11 @@ nav ul li a {
 
 
   
-/*.factions__btn {
-    background-color: #f44336;
-    color: white;
-    padding: 14px 25px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-}*/
+.factions__btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+}
   
 .factions__card button {
     color: #fff;
@@ -160,14 +190,3 @@ nav ul li a {
 }
 
 
-@media screen and (max-width: 1300px) {
-    .services__wrapper {
-      grid-template-columns: 1fr 1fr;
-    }
-}
-  
-@media screen and (max-width: 768px) {
-    .services__wrapper {
-      grid-template-columns: 1fr;
-    }
-}
