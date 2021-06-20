@@ -1,0 +1,159 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: #5D4954;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.logo{ 
+    color: rgb(226, 226, 226);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 20px;
+    line-height: 80px;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    font-size: 20px;
+
+}
+.nav-links li {
+    list-style: none;
+    
+}
+
+nav ul {
+    float:right;
+    margin-right: 20px;
+}
+nav ul li a {
+    color: rgb(226, 226, 226);
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
+
+
+.nav-links a {
+    color: rgb(226, 226, 226);
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+    transition:font-size 0.3s;
+}
+
+.factions{
+    background-image: url("images/black_water_tile.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 10rem 0;
+}
+
+.factions h1 {
+    color: rgb(226, 226, 226);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 20px;
+    line-height: 80px;
+    margin-bottom: 5rem;
+    font-size: 2.5rem;
+}
+
+.factions__wrapper {
+    display:grid;
+    grid-template-columns: lfr lfr lfr lfr;
+    grid-template-rows: lfr;
+}
+
+.factions__card {
+    margin: 10px;
+  height: 400px;
+  width: 300px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: 0.3s ease-in;
+
+}
+
+#faction1{
+    background-image: url("images/mlogo2.png");
+    background-repeat: no-repeat;
+    
+    background-size: 100% 100%;
+
+
+}
+#faction2{
+    background-image: url("images/download\ \(1\).jpg");
+    background-repeat: no-repeat;
+    
+    background-size: 100% 100%;
+
+
+}
+#faction3{
+    background-image: url("images/fuck.jpg");
+    background-repeat: no-repeat;
+    
+    background-size: 100% 100%;
+
+
+}
+#faction4{
+    background-image: url("images/fuck2.jpg");
+    background-repeat: no-repeat;
+    
+    background-size: 100% 100%;
+
+
+}
+
+
+
+  
+.factions__btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+}
+  
+.factions__card button {
+    color: #fff;
+    padding: 14px 24px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background: #131313;
+    font-size: 1rem;
+}
+  
+.factions__card button:hover {
+    cursor: pointer;
+}
+  
+.factions__card:hover {
+    transform: scale(1.075);
+    transition: 0.3s ease-in;
+    cursor: pointer;
+}
+
+
