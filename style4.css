@@ -162,3 +162,6 @@ section {
     cursor: pointer;
   }
 
+  .text {
+    line-height: 1.6;
+  }
