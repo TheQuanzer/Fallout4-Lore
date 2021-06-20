@@ -129,3 +129,8 @@ section .cards .text-card h3 {
         flex-direction: column;
     }
 }
+
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+}
